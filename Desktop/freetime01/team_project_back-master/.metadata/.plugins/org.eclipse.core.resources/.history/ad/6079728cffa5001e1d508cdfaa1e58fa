@@ -1,0 +1,11 @@
+package com.example.dao;
+
+import com.mysql.cj.x.protobuf.MysqlxDatatypes.Scalar.String;
+
+public class GradeCalcVO {
+	private String uid;
+	private String courses;
+	private int grade;
+	private int score;
+	private int base;
+}

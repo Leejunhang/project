@@ -1,0 +1,17 @@
+package com.example.domain;
+
+import com.mysql.cj.x.protobuf.MysqlxDatatypes.Scalar.String;
+
+public class MarketVO {
+	private int sid;
+	private String uid;
+	private String title;
+	private String photo;
+	private String contents;
+	private String regdate;
+	private int price;
+	private int category;
+	
+	
+	
+}
